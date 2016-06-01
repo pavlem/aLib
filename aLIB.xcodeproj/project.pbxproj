@@ -14,6 +14,8 @@
 		9E3CAD9F1CFEDE2200581B2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3CAD9D1CFEDE2200581B2C /* LaunchScreen.storyboard */; };
 		9E3CADAA1CFEDE2200581B2C /* aLIBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3CADA91CFEDE2200581B2C /* aLIBTests.swift */; };
 		9E3CADB51CFEDE2200581B2C /* aLIBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3CADB41CFEDE2200581B2C /* aLIBUITests.swift */; };
+		9E3CADC31CFEE32500581B2C /* FMSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3CADC21CFEE32500581B2C /* FMSynthesizer.swift */; };
+		9E3CADC71CFF270900581B2C /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3CADC61CFF270900581B2C /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9E3CADB01CFEDE2200581B2C /* aLIBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aLIBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3CADB41CFEDE2200581B2C /* aLIBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aLIBUITests.swift; sourceTree = "<group>"; };
 		9E3CADB61CFEDE2200581B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3CADC21CFEE32500581B2C /* FMSynthesizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMSynthesizer.swift; sourceTree = "<group>"; };
+		9E3CADC61CFF270900581B2C /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				9E3CAD941CFEDE2200581B2C /* AppDelegate.swift */,
 				9E3CAD961CFEDE2200581B2C /* ViewController.swift */,
+				9E3CADC61CFF270900581B2C /* ViewController2.swift */,
+				9E3CADC21CFEE32500581B2C /* FMSynthesizer.swift */,
 				9E3CAD981CFEDE2200581B2C /* Main.storyboard */,
 				9E3CAD9B1CFEDE2200581B2C /* Assets.xcassets */,
 				9E3CAD9D1CFEDE2200581B2C /* LaunchScreen.storyboard */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3CADC71CFF270900581B2C /* ViewController2.swift in Sources */,
 				9E3CAD971CFEDE2200581B2C /* ViewController.swift in Sources */,
+				9E3CADC31CFEE32500581B2C /* FMSynthesizer.swift in Sources */,
 				9E3CAD951CFEDE2200581B2C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +492,7 @@
 				9E3CADBB1CFEDE2200581B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E3CADBC1CFEDE2200581B2C /* Build configuration list for PBXNativeTarget "aLIBTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				9E3CADBE1CFEDE2200581B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E3CADBF1CFEDE2200581B2C /* Build configuration list for PBXNativeTarget "aLIBUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				9E3CADC11CFEDE2200581B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
