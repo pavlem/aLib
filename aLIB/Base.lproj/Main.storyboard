@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--VC3-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="aLIB" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="VC3" customModule="aLIB" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,17 +18,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBK-OQ-ThJ">
-                                <rect key="frame" x="20" y="285" width="56" height="30"/>
-                                <state key="normal" title="TTTTTT"/>
+                                <rect key="frame" x="14" y="121" width="30" height="30"/>
+                                <state key="normal" title="VC1"/>
                                 <connections>
                                     <action selector="test:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PSJ-gr-cpm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2J-a6-fQk">
-                                <rect key="frame" x="20" y="133" width="36" height="30"/>
+                                <rect key="frame" x="14" y="166" width="36" height="30"/>
                                 <state key="normal" title="VC-2"/>
                                 <connections>
                                     <action selector="vc2Test:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oBL-td-oQk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJG-QI-oF6">
+                                <rect key="frame" x="14" y="229" width="30" height="30"/>
+                                <state key="normal" title="VC3"/>
+                                <connections>
+                                    <action selector="vc3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5f4-CL-8wE"/>
                                 </connections>
                             </button>
                         </subviews>

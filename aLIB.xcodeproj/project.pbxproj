@@ -16,6 +16,7 @@
 		9E3CADB51CFEDE2200581B2C /* aLIBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3CADB41CFEDE2200581B2C /* aLIBUITests.swift */; };
 		9E3CADC31CFEE32500581B2C /* FMSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3CADC21CFEE32500581B2C /* FMSynthesizer.swift */; };
 		9E3CADC71CFF270900581B2C /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3CADC61CFF270900581B2C /* ViewController2.swift */; };
+		9E44D8CF1D0014B90069FB8D /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E44D8CE1D0014B90069FB8D /* VC3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9E3CADB61CFEDE2200581B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E3CADC21CFEE32500581B2C /* FMSynthesizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMSynthesizer.swift; sourceTree = "<group>"; };
 		9E3CADC61CFF270900581B2C /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		9E44D8CE1D0014B90069FB8D /* VC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				9E3CAD941CFEDE2200581B2C /* AppDelegate.swift */,
 				9E3CAD961CFEDE2200581B2C /* ViewController.swift */,
+				9E44D8CE1D0014B90069FB8D /* VC3.swift */,
 				9E3CADC61CFF270900581B2C /* ViewController2.swift */,
 				9E3CADC21CFEE32500581B2C /* FMSynthesizer.swift */,
 				9E3CAD981CFEDE2200581B2C /* Main.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				9E3CADC71CFF270900581B2C /* ViewController2.swift in Sources */,
 				9E3CAD971CFEDE2200581B2C /* ViewController.swift in Sources */,
+				9E44D8CF1D0014B90069FB8D /* VC3.swift in Sources */,
 				9E3CADC31CFEE32500581B2C /* FMSynthesizer.swift in Sources */,
 				9E3CAD951CFEDE2200581B2C /* AppDelegate.swift in Sources */,
 			);
